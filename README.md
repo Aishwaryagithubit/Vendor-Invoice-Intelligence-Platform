@@ -137,6 +137,8 @@ Vendor-Invoice-Intelligence-Platform/
 ├── notebooks/
 │
 └── Project images/
+
+
 Technology Stack
 Python
 Pandas
