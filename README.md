@@ -2,8 +2,9 @@
 
 > An AI-powered analytics system that predicts freight costs and identifies risky vendor invoices using machine learning.
 
-This project helps businesses detect invoice anomalies, reduce cost leakage, and improve audit efficiency by combining data engineering, statistical analysis, and machine learning models.
+This project helps businesses detect invoice anomalies, reduce cost leakage, and improve audit efficiency by combining data engineering, statistical analysis, and machine learning.
 
+---
 
 ## Overview
 
@@ -11,7 +12,7 @@ The Vendor Invoice Intelligence Platform is an end-to-end machine learning solut
 
 The platform provides two core capabilities:
 
-- **Freight Cost Prediction** — predicts expected freight costs from invoice and purchasing data.
+- **Freight Cost Prediction** — estimates expected freight costs from invoice and purchasing data.
 - **Invoice Risk Detection** — identifies potentially risky invoices that may require manual review.
 
 The system combines SQL-based feature engineering, data preprocessing, exploratory analysis, machine learning, model evaluation, and real-time inference through a Streamlit application.
@@ -25,7 +26,7 @@ The system combines SQL-based feature engineering, data preprocessing, explorato
 - SQL-based feature engineering
 - Invoice and purchasing data analysis
 - Data preprocessing and feature scaling
-- Random Forest regression and classification models
+- Random Forest regression and classification
 - Saved models for real-time inference
 - Interactive Streamlit dashboard
 - Risk-based manual approval workflow
@@ -41,12 +42,12 @@ The system combines SQL-based feature engineering, data preprocessing, explorato
 
 ### Freight Cost Prediction
 
-The regression model uses invoice, purchasing, vendor, and item-level features to estimate freight costs.
+The regression model uses invoice, purchasing, vendor, and item-level features to estimate expected freight costs.
 
-**Reported performance:**
+**Performance**
 
-- R²: **96.59%**
-- MAE: **27.64**
+- **R²:** 96.59%
+- **MAE:** 27.64
 
 ### Invoice Risk Detection
 
@@ -78,9 +79,9 @@ Key features include:
 | `total_item_dollars` | Total value of purchased items |
 | `avg_receiving_delay` | Average receiving delay |
 
+---
 
-
-## Workflow
+## Machine Learning Workflow
 
 ```text
 Raw Data
@@ -93,11 +94,11 @@ Data Preprocessing
    ↓
 Feature Scaling
    ↓
-Machine Learning Models
+Model Training
    ↓
 Model Evaluation
    ↓
-Serialized Models
+Model Serialization
    ↓
 Streamlit Application
    ↓
@@ -136,7 +137,6 @@ Vendor-Invoice-Intelligence-Platform/
 ├── notebooks/
 │
 └── Project images/
-
 Technology Stack
 Python
 Pandas
@@ -148,13 +148,10 @@ Joblib
 Streamlit
 Installation
 
-Clone the repository:
+Clone the repository and install the required dependencies:
 
-git clone https://github.com/OfficialTanishGupta/Vendor-Invoice-Intelligence-Platform.git
+git clone <your-repository-url>
 cd Vendor-Invoice-Intelligence-Platform
-
-Install the required dependencies:
-
 pip install -r requirements.txt
 Run the Application
 
@@ -162,7 +159,7 @@ Launch the Streamlit application:
 
 streamlit run app.py
 
-The application provides an interactive interface for both:
+The application provides an interactive interface for:
 
 Freight cost prediction
 Invoice risk detection
@@ -176,7 +173,7 @@ Reduce financial cost leakage
 Prioritize invoices for manual review
 Improve audit efficiency
 Support faster finance operations
-Make data-driven vendor invoice decisions
+Enable data-driven vendor invoice decisions
 Limitations
 
 This system is designed as a decision-support tool.
@@ -187,12 +184,16 @@ Model performance may also vary when applied to data that differs significantly 
 
 Future Improvements
 Add SHAP-based model explanations
-Compare additional ML algorithms
+Compare additional machine learning algorithms
 Add batch invoice scoring through CSV upload
 Introduce model and data-drift monitoring
 Integrate with live enterprise databases
 Containerize the application with Docker
 Deploy the platform to cloud infrastructure
+Live Demo
+
+Streamlit Application:
+<your-streamlit-app-url>
 
 Author
 
@@ -200,15 +201,4 @@ Aishwarya Sah
 
 AI / Machine Learning Engineer
 
-Focused on building machine learning systems and data-driven applications.
-
-
-### One important correction
-
-I would **not** use this sentence from the earlier README:
-
-> “Invoice Risk Detection — R²: 89.88%”
-
-for the classifier unless your evaluation code genuinely calculates R² for a classification problem. That's technically unusual. Your README/source describes the second workflow as a classifier, so the final README should use **accuracy, precision, recall, F1-score, ROC-AUC, or PR-AUC** if those are what your evaluation actually calculates. :contentReference[oaicite:0]{index=0}
-
-The opening you suggested is much better, though. **Short → clear business problem → technical approach → va
+Building machine learning systems and data driven applications.
