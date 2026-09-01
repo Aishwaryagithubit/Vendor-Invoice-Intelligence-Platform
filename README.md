@@ -105,6 +105,7 @@ Streamlit Application
 Real-Time Prediction
 
 ---
+
 Project Structure
 Vendor-Invoice-Intelligence-Platform/
 │
@@ -139,8 +140,8 @@ Vendor-Invoice-Intelligence-Platform/
 │
 └── Project images/
 
----
-Technology Stack
+
+##Technology Stack
 Python
 Pandas
 NumPy
@@ -149,14 +150,19 @@ Scikit-learn
 Random Forest
 Joblib
 Streamlit
-Installation
 
-Clone the repository and install the required dependencies:
+##Installation
 
-git clone <your-repository-url>
+Clone the repository:
+
+git clone https://github.com/OfficialTanishGupta/Vendor-Invoice-Intelligence-Platform.git
 cd Vendor-Invoice-Intelligence-Platform
+
+Install the required dependencies:
+
 pip install -r requirements.txt
-Run the Application
+
+##Run the Application
 
 Launch the Streamlit application:
 
@@ -164,9 +170,10 @@ streamlit run app.py
 
 The application provides an interactive interface for:
 
-Freight cost prediction
-Invoice risk detection
-Business Value
+Freight Cost Prediction
+Invoice Risk Detection
+
+##Business Value
 
 The platform is designed to help organizations:
 
@@ -177,7 +184,8 @@ Prioritize invoices for manual review
 Improve audit efficiency
 Support faster finance operations
 Enable data-driven vendor invoice decisions
-Limitations
+
+##Limitations
 
 This system is designed as a decision-support tool.
 
@@ -185,7 +193,7 @@ A risk prediction does not independently establish that an invoice is fraudulent
 
 Model performance may also vary when applied to data that differs significantly from the training dataset.
 
-Future Improvements
+##Future Improvements
 Add SHAP-based model explanations
 Compare additional machine learning algorithms
 Add batch invoice scoring through CSV upload
@@ -196,7 +204,7 @@ Deploy the platform to cloud infrastructure
 Live Demo
 
 Streamlit Application:
-<your-streamlit-app-url>
+https://vendor-invoice-intelligence-systemgit.streamlit.app/
 
 Author
 
