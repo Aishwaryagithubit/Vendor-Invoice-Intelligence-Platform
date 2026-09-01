@@ -407,7 +407,7 @@ st.markdown("""
     <h1 class="hero-title">Vendor Invoice<br><span>Intelligence</span> Platform</h1>
     <p class="hero-subtitle">
         Machine learning models that predict freight costs and detect high-risk<br>
-        invoices before they reach your finance team — in real time.
+        invoices before they reach your finance team in real time.
     </p>
     <div class="hero-stats">
         <div class="stat-item">
