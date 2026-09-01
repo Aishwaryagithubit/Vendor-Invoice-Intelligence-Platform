@@ -4,6 +4,9 @@
 
 This project helps businesses detect invoice anomalies, reduce cost leakage, and improve audit efficiency by combining data engineering, statistical analysis, and machine learning.
 
+## LIVE DEMO
+https://vendor-invoice-intelligence-platform-pmad.onrender.com/
+
 ---
 
 ## Overview
@@ -141,7 +144,7 @@ Vendor-Invoice-Intelligence-Platform/
 └── Project images/
 
 
-##Technology Stack
+## Technology Stack
 Python
 Pandas
 NumPy
@@ -204,7 +207,7 @@ Deploy the platform to cloud infrastructure
 Live Demo
 
 Streamlit Application:
-https://vendor-invoice-intelligence-systemgit.streamlit.app/
+https://vendor-invoice-intelligence-platform-pmad.onrender.com/
 
 Author
 
