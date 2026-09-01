@@ -104,6 +104,7 @@ Streamlit Application
    ↓
 Real-Time Prediction
 
+---
 Project Structure
 Vendor-Invoice-Intelligence-Platform/
 │
@@ -138,7 +139,7 @@ Vendor-Invoice-Intelligence-Platform/
 │
 └── Project images/
 
-
+---
 Technology Stack
 Python
 Pandas
